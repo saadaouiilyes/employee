@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /app
+
+spring:
+  application:
+    name: SystemManagementApplication
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/crudapp
+    username: postgres
+    password: si0770
+    driver-class-name: org.postgresql.Driver
+
+logging:
+  level:
+    org.springframework: DEBUG
